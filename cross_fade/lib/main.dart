@@ -70,20 +70,6 @@ class _CrossFadeDemoPageState extends State<CrossFadeDemoPage> {
                 },
                 child: Text(_showFirst ? 'Show Cat' : 'Show Dog'),
               ),
-              const SizedBox(height: 16),
-              // Attribute notes for presentation
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
-                    Text('Demo Attributes:', style: TextStyle(fontWeight: FontWeight.bold)),
-                    Text('1. duration: Controls animation speed (default: 200ms, here: 1s)'),
-                    Text('2. crossFadeState: Which child is shown (showFirst/showSecond)'),
-                    Text('3. alignment: How children are aligned (default: topCenter, here: center)'),
-                  ],
-                ),
-              ),
               const SizedBox(height: 32),
             ],
           ),
