@@ -16,3 +16,8 @@ AnimatedCrossFade widget demo: smoothly transitions between a dog and a cat imag
 - **alignment**: How children are aligned (here: center)
 
 ## Screenshot
+### Cat Image
+![Cat Screenshot](cat_screenshot.png)
+
+### Dog Image
+![Dog Screenshot](dog_screenshot.png)
