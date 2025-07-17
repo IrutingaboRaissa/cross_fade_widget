@@ -29,7 +29,7 @@ class _CrossFadeDemoPageState extends State<CrossFadeDemoPage> {
 
   // Example image URLs (replace with your own if desired)
   final String _firstImage = 'https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80'; // Dog
-  final String _secondImage = 'https://images.unsplash.com/photo-1518715308788-300e1e1e1e1e?auto=format&fit=crop&w=400&q=80'; // Cat
+  final String _secondImage = 'https://images.unsplash.com/photo-1518791841217-70c7b0b5e8d4?auto=format&fit=crop&w=400&q=80'; // Cat
 
   @override
   Widget build(BuildContext context) {
